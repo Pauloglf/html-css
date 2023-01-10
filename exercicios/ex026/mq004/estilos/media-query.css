@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/* Outras Mídias */
+
+/* Typical Device Breakpoints
+Disp. móvel: 320px, 480px
+Tablets:768px
+Desktop:1920px
+*/
+
+@media print {
+    
+}
+
+@media screen and (max-width: 320px) {
+    
+}
+
+@media screen and (max-width: 480px) {
+    
+}
