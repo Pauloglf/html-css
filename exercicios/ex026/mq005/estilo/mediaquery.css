@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints
+Disp. móvel: 320px-480px
+Tablets, iPads: 481px-768px
+Laptops, telas pequenas: 769px-1024px
+Desktops, telas grandes: 1025px-1200px
+Telas extragrandes, TV: 1201px
+*/
+
+@media screen and (min-width: 768px) {
+    span#menu {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu li {
+        display: inline-block;
+    }
+
+    main {
+        width: 768px;
+    }
+}
